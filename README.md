@@ -1,3 +1,4 @@
+
 # Mini-Projeto "atendimento" para clientes
 
 Projeto "teste" para a empresa MadeiraMadeira dentro do padrão MVC+S sem o uso de Framework
@@ -18,17 +19,25 @@ Clone o repositório na raiz do seu web server.
 ```
 git clone https://github.com/effer89/atendimento.git
 ```
-
 Dentro da pasta do projeto, rode o composer.
 ```
 composer install
 ```
-
 E importe o dump do banco de dados para um banco previamente criado, aqui usei o nome "atendimento".
 ```
 mysql -u root -p atendimento < db.sql
 ```
+### Requisitos atendidos no projeto
 
+Factory
+```
+src/Service/TicketsService.php : 36
+```
+Dependency Injection
+```
+src/Bootstrap.php : 101
+src/Controller/Client.php : 13
+```
 ## Feito com
 
 * [Whoops](https://github.com/filp/whoops) - Gerenciar erros do PHP
