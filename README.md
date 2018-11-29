@@ -1,7 +1,6 @@
-
 # Mini-Projeto "atendimento" para clientes
 
-Projeto "teste" para a empresa MadeiraMadeira dentro do padrão MVC+S sem o uso de Framework
+Projeto "teste" dentro do padrão MVC+S sem o uso de Framework
 
 ## Começando
 
